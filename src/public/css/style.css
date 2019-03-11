@@ -1,0 +1,80 @@
+html {
+    background:url("../images/wallpaper.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+html, body {
+    overflow:hidden;
+    height:100%;
+  }
+  @font-face{
+    font-family: 'Exo-Regular';
+    src: url("../fonts/Exo-Regular.ttf");
+}
+h1{
+    font-family: 'Exo-Regular';
+}
+li{
+    font-family:'Exo-Regular';
+    width: 70%;
+    height: 30%;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color:rgb(175, 170, 170, 0.3);
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+#notification-list{
+    height: 80%;
+    width: 35%;
+    position: absolute;
+    border-radius: 10px;
+    overflow:auto;
+    top: 12%;
+    right: 64%;
+}
+#issue-list{
+    height: 80%;
+    width: 35%;
+    position: absolute;
+    border-radius: 10px;
+    overflow:auto;
+    top: 11%;
+    right: 14%;
+}
+#created{
+    background-color:rgba(1, 255, 1, 0.3);  
+}
+#deleted{
+    background-color:rgba(255, 18, 1, 0.3); 
+}
+#opened{
+    background-color:rgba(1, 255, 1, 0.3); 
+}
+#closed{
+    background-color:rgba(255, 18, 1, 0.3);  
+}
+.image{
+    float:left; 
+    margin-right: 10px;
+}
+.user{
+    float: left;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 18px;
+}
+.action{
+    position: relative;
+    top: 130px;
+    right: 249px;
+}
+
+.action p {
+    width: 700px;
+}
+#title{
+    background-color: rgb(22, 144, 175);
+    border-radius: 10px 10px 0px 0px;
+}

@@ -1,0 +1,19 @@
+<div id="issues">
+<h1 style ="position: absolute;left: 818px;">All Issues:</h1>
+<ul id="issue-list">
+{{#each issues}}
+<li id = {{this.url}}>
+<h2 id = "title">{{this.title}}</h2>
+<p class="comments"># Comments: {{this.comments}}</p>
+<a href="{{this.html_url}}">Link to Issue</a>
+<p class="updated">Updated at {{this.updated_at}}</p>
+</li>
+{{/each}}
+</ul>
+</div>
+<div id="notifications">
+<h1>Notifications:</h1>
+<ul id="notification-list">
+
+</ul>
+</div>

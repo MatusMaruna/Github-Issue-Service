@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git --work-tree=/var/www/Assignment3_MM223FJ --git-dir=/var/repo/site.git checkout -f
+
+cd /var/www/Assignment3_MM223FJ
+npm install --production
+pm2 delete all 
+pm2 start src/server.js
